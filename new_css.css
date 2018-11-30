@@ -1,0 +1,395 @@
+html,body{
+height: 100%;
+
+}
+
+
+
+.navbar  {
+  font-family:serif;
+  position:fixed;
+  overflow: hidden;
+  top:0;
+  width:100%;
+  background-color:black;
+  padding-right:70px;
+  
+}
+
+.navbar a {
+  float: right;
+  display:block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+.navbar a:hover {
+  background-color:  #FFF0D2;
+  color: black;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size-adjust:0.58;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FFF0D2;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.typewriter h2{
+  font-family: serif;
+  text-transform:uppercase;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+
+.parallax {
+    background-image: url('images/bg1_edit.png');
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+  align-items: center;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  color:#fff;
+  margin-bottom:0px;
+  
+}
+
+
+#about{
+	background-color:#FFF0D2;
+	}
+ 
+#about h2{
+	text-transform:uppercase;
+	max-width:600px;
+    margin: 70 auto ;
+	padding-left:100px;
+	letter-spacing: .10em;}
+
+#about p{
+    padding-left:150px;
+	max-width:750px;
+	margin: 0 auto 0;
+	display:fixed;
+}
+
+#exp{
+  background-image: url('images/pathexp.png');	}
+
+#exp h2{
+	text-transform:uppercase;
+	max-width:600px;
+    margin: 0 auto ;
+	margin-top:30px;
+	padding-left:150px;
+	letter-spacing: .10em;}
+#exp h3{
+padding-left:300px;
+font-family:'Lora', serif;
+}
+
+#exp h5{
+padding-left:900px;
+font-family:'Lora', serif;
+}
+
+	
+#exp p{
+    padding-left:90px;
+}
+table{
+margin: 0 auto 0;
+
+}
+	
+	
+thead{
+	font-size:18px;
+	font-family:serif
+
+}
+thead td{
+	color:white !Important ;
+	font-family:'Avant Garde', serif;
+	font-style:italic;
+	
+
+}
+
+td{
+	text-align:right;
+	
+}
+
+
+th{
+	font-family:'Avant Garde', serif;
+	color:white;
+	font-style:italic;
+
+}
+
+tbody td{
+    padding-bottom:5px;
+	text-align:right;
+	color:white ;
+    font-family:'Avant Garde', serif;
+	font-style:italic;
+
+}
+tfoot td{
+	text-align:left;
+	 padding-top:15px;
+	 padding-bottom:30px;
+	 color:#5e6268  !important   ; 
+
+
+}
+#edu{
+	background-color:white;
+}
+
+#edu text{
+		 color:#5e6268  !important ;
+}
+#edu h2{
+	text-transform:uppercase;
+	max-width:600px;
+    margin: 70 auto ;
+	padding-left:100px;
+	letter-spacing: .10em;}
+
+#edu p{
+    padding-left:90px;
+	max-width:750px;
+	margin: 0 auto 0;
+	display:fixed;
+}
+
+.clt, .clt ul, .clt li {
+     position: relative;
+}
+
+.clt ul {
+    list-style: none;
+    padding-left: 32px;
+	
+}
+
+.clt li::before, .clt li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.clt li::before {
+    border-top: 1px solid #000;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.clt li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.clt ul > li:last-child::after {
+    height: 8px;
+}
+
+
+
+#contact{
+  background-image: url('images/pathnew.png');	
+	}
+
+#contact h1{
+	text-transform:uppercase;
+	max-width:600px;
+    margin: 0 auto ;
+	text-align:center;
+	letter-spacing: .10em;}
+
+#contact p{
+    padding-left:200px;
+	max-width:750px;
+	margin: 0 auto 0;
+	display:fixed;
+}
+
+
+.col-md-6 {
+   align-items:right;
+}
+.col-md-6 h3 {
+	 font-family:serif;
+	 color:white;
+	 letter-spacing: .10em; 
+	 font-style:italic;
+	 text-transform:uppercase;
+	 margin-top:-5px;
+	 
+}
+.col-md-6 h4{
+	font-family:serif;
+	max-width:750px;
+	margin: 0 auto 0;
+	display:fixed;
+}
+button{
+  height:10px;
+  width:60px;
+  border-radius:8px;
+  padding:6px;
+  font-size:15px;
+  font-family: 'Oswald', sans-serif;
+  height:52px;
+  cursor:pointer;
+  background-color:wheat;
+}
+
+/* entire container, keeps perspective */
+ .flip-container {
+	perspective: 1000px;
+
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+
+
+	}
+
+.flip-container, .front, .back {
+	width: 400px;
+	height: 400px;
+	
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+
+
+.img3{
+padding-left:100px;
+}
+	
+	
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
+}
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+footer {
+  font-size: 8px;
+  padding: 40px 0;
+}
+
+
